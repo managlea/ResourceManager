@@ -9,5 +9,5 @@
     "autoload": {
         "psr-4": {"Managlea\\Component\\ResourceManager\\": ""}
     },
-    "target-dir": "Managlea/Component/ResourceManager",
+    "target-dir": "Managlea/Component/ResourceManager"
 }
