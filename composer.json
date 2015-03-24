@@ -1,13 +1,19 @@
 {
-    "name": "managlea/resource-manager",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Kauri Kont-Kontson"
-        }
-    ],
-    "autoload": {
-        "psr-0": {"Managlea\\Component\\ResourceManager\\": ""}
-    },
-    "target-dir": "Managlea/Component/ResourceManager"
+  "name": "managlea/resource-manager",
+  "description": "Additional abstraction of objects",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kauri Kont-Kontson"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Managlea\\ResourceManager\\": "src/"
+    }
+  },
+  "require-dev": {
+    "codeclimate/php-test-reporter": "dev-master"
+  }
 }

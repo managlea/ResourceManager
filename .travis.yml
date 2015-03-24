@@ -1,0 +1,9 @@
+language: php
+addons:
+  code_climate:
+    repo_token: ecd858071ec1f1068680f90b419058e5aa6fe5cc8d65a840ccd52c6b10ead371
+before_script:
+  - composer self-update
+  - composer install
+after_script:
+  - vendor/bin/test-reporter
